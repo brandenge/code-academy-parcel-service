@@ -22,14 +22,10 @@ This lab demonstrates how to implement an Express API complete with authenticati
 
 #### Features / Routes
 
-#### Tests
-
-- `npm test` to run tests
-
 #### UML Diagram
 
 ![UML Diagram](uml11.png)
 
-Diagram created with [InVision](https://www.invisionapp.com/)
+Diagram created with [Figma](https://www.figma.com/)
 
 #### Credits: [Demo code from Ryan Gallaway at Code Fellows](https://github.com/codefellows/seattle-code-javascript-401d48/tree/main/class-11/inclass-demo)
