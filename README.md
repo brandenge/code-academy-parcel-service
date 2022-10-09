@@ -18,9 +18,7 @@ This example mimics a delivery service passing messages regarding the updated st
 
 #### Running the app
 
-1) Run `node server/hub.js` to start the server hub event listeners.
-2) Run `node drivers/driverEvents.js` to start the drivers event listeners and emitters.
-3) Run `node vendors/vendorEvents.js` to start the vendor event listeners and emitters.
+- Run `node server/hub.js` to start the `server` hub event listeners. This also starts the event listeners and emitters in `vendors` and `drivers`.
 
 #### Features / Routes
 
