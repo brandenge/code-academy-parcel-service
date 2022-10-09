@@ -6,7 +6,7 @@
 
 ### Problem Domain
 
-This lab demonstrates how to implement an Express API complete with authentication and authorization functionality, restricting access to routes that manipulate a database with music and movie information. It also features a comprehensive automated test suite.
+This lab demonstrates how to implement an event-driven application using Node Events. A series of event listeners and event emitters pass messages to each other.
 
 - [GitHub Repo](https://github.com/brandenge/code-academy-parcel-service)
 
