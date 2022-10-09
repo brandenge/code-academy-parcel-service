@@ -12,15 +12,22 @@ This lab demonstrates how to implement an Express API complete with authenticati
 
 ### Setup
 
-`.env` Environments variables set as shown in the `.env.sample`
-
-- `PORT`
+- N/A
 
 #### Running the app
 
-- `npm start` or `nodemon` (if you have nodemon) to start the application.
+1) Run `node server/hub.js` to start the server hub event listeners.
+2) Run `node drivers/driverEvents.js` to start the drivers event listeners and emitters.
+3) Run `node vendors/vendorEvents.js` to start the vendor event listeners and emitters.
 
 #### Features / Routes
+
+Events
+
+1) New Order - emitted from vendorEvents to itself to trigger the entire event chain.
+2) Pickup - emitted from vendorEvents
+3) In-Transit - emitted from driverEvents
+4) Delivered - emitted from driverEvents
 
 #### UML Diagram
 
