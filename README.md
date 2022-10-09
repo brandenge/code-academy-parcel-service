@@ -8,6 +8,8 @@
 
 This lab demonstrates how to implement an event-driven application using Node Events. A series of event listeners and event emitters pass messages to each other.
 
+This example mimics a delivery service passing messages regarding the updated status of a shipped package that is sent from vendors to delivery truck drivers.
+
 - [GitHub Repo](https://github.com/brandenge/code-academy-parcel-service)
 
 ### Setup
